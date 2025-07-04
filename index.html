@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habeeb - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-code"></i> Habeeb
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <p class="intro-text">Hey, I am Habeeb</p>
+                    <h1>I create <span class="highlight">product designs</span> and <span class="highlight">develop websites</span></h1>
+                    <p>I design interfaces, pieces using only and build websites that perform, blending creativity with functionality to deliver smooth, user-focused experiences that make an impact.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary-custom me-3">Contact Me</a>
+                        <a href="#portfolio" class="btn-outline-custom">See My Work</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-illustration">
+                        <div class="computer-illustration">
+                            <div class="computer-screen">
+                                <img src="Images/undraw_hello_ccwj.svg" alt="" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="about-illustration">
+                        <div class="person-with-headphones">
+                            <img src="Images/undraw_in-the-zone_07y7.svg" alt="" width="400">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <div class="about-content">
+                        <p>I am Habeeb Jinad, a product designer and web developer passionate about creating digital experiences that are both beautiful and functional. I enjoy turning ideas into clean, user-centered designs and bringing them to life with code.</p>
+                        <p>With expertise in modern web technologies and design principles, I've worked on projects ranging from simple landing pages to full product interfaces. I love solving real problems with thoughtful design and clean code, always keeping the user in focus.</p>
+                        <p>When I'm not designing or coding, you'll find me exploring new design trends, learning new technologies, or working on personal projects that challenge my creativity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section" >
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                       <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Figma</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Canva</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Services</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4>UI & UX DESIGNING</h4>
+                        <p>I design beautiful and effective interfaces that provide seamless user experiences, focusing on usability and visual appeal.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p>I build responsive, fast, and modern websites using the latest technologies and best practices for optimal performance.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>GRAPHIC DESIGN</h4>
+                        <p>I create compelling visual designs for branding, marketing materials, and digital assets that communicate your message effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My recent <span style="color: var(--primary-color);">works</span></h2>
+            <button id="btn-product">Product Design</button>
+            <button id="btn-web">Web Development</button>
+            <button id="btn-graphic">Graphic Design</button>
+            
+            <!-- Product Design Portfolio -->
+            <div class="row portfolio-tab" id="tab-product">
+                <!-- ...Product Design cards here... -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img1">
+                            <!-- <img src="Images/Desktop_Screen.jpg" alt="" width="150px" height="200px"> -->
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">KRYPTO</h5>
+                            <p class="portfolio-description">A modern and secure marketplace for buying and selling unique crypto assets with clean UI and seamless user experience for transaction.</p>
+                            <button class="btn btn-portfolio"><a href="https://www.figma.com/proto/UtSwRe54buXSeddj10uqeL/Flux---Figma-Build-Tutorial--Starter---Community-?node-id=206-2&t=BahXL095dK6r2NUO-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=206%3A2" style="color:white; text-decoration:none ;">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img2">
+                            <!-- <img src="Images/Desktop2.jpg" alt="" width="150px" height="210px"> -->
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">MEDCRUITA</h5>
+                            <p class="portfolio-description">A clean, responsive landing page for a healthcare recruitment platform. Focused on clarity, impact metrics, and intuitive user flow to support job matching and outreach.</p>
+                            <button class="btn btn-portfolio"><a href="https://www.figma.com/proto/5CIDczRvrMEs2ek6XN0WED/Health-Staff-Shortage?node-id=11-48&p=f&t=WVgqAH7skLcVqUFS-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A48" style="color:white; text-decoration:none ;">View Details</a></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img3">
+                            <!-- <img src="Images/mockuuups-multicolored-background-with-iphone-mockup.jpeg" alt="" width="360px" height="250px"> -->
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">WOLT</h5>
+                            <p class="portfolio-description">This project is a visual re-creation of selected screens from the Wolt food delivery app. It was designed to strengthen my skills in UI layout, color balance, and mobile-first design. </p>
+                            <button class="btn btn-portfolio"><a href="https://www.figma.com/proto/FQML3WNP7sE4La2XTH9R8Q/Wolt?t=2QegcKZu5U7d9Sas-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=11-59" style="color:white; text-decoration:none ;">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card" style="height: auto;">
+                        <div class="portfolio-img4" >
+                           <!-- <img src="Images/Duolin2.jpeg" alt="" width="500px" height="200px"> -->
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">DUOLINGO</h5>
+                            <p class="portfolio-description">I recreated a set of slides inspired by Duolingo’s interface to sharpen my layout, typography, and visual consistency skills. This project reflects my ability to study existing designs and replicate them with attention to detail and responsive structure.</p>
+                            <button class="btn btn-portfolio"><a href="https://www.figma.com/proto/FQML3WNP7sE4La2XTH9R8Q/Wolt?node-id=54-167&t=sYsDBEqxlaJc2x8o-1&scaling=scale-down&content-scaling=fixed&page-id=51%3A145" style="color:white; text-decoration:none ;">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Web Development Portfolio -->
+            <div class="row portfolio-tab" id="tab-web" style="display:none;">
+                <!-- ...Web Development cards here... -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="Images/Medmockup.jpg" alt="" width="360px" height="210px">
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">PORTFOLIO WEBSITE</h5>
+                            <p class="portfolio-description">A personal portfolio website built with HTML, CSS, and JavaScript.</p>
+                            <button class="btn btn-portfolio">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">FINTECH</h5>
+                            <p class="portfolio-description">A modern fintech application with clean UI and seamless user experience for financial management.</p>
+                            <button class="btn btn-portfolio">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">FINTECH</h5>
+                            <p class="portfolio-description">A modern fintech application with clean UI and seamless user experience for financial management.</p>
+                            <button class="btn btn-portfolio">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Graphic Design Portfolio -->
+            <div class="row portfolio-tab" id="tab-graphic" style="display:none;">
+                <!-- ...Graphic Design cards here... -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">LOGO DESIGN</h5>
+                            <p class="portfolio-description">Creative logo designs for brands and businesses.</p>
+                            <button class="btn btn-portfolio">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">FINTECH</h5>
+                            <p class="portfolio-description">A modern fintech application with clean UI and seamless user experience for financial management.</p>
+                            <button class="btn btn-portfolio">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">FINTECH</h5>
+                            <p class="portfolio-description">A modern fintech application with clean UI and seamless user experience for financial management.</p>
+                            <button class="btn btn-portfolio">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonial-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">What our clients say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card" data-aos="fade-up">
+                                    <p class="testimonial-text">"Working with Mubashir was an absolute pleasure. His attention to detail and creative approach resulted in a website that exceeded our expectations. The design is both beautiful and functional."</p>
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h6>Sarah Johnson</h6>
+                                            <small>CEO, TechStart</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card" data-aos="fade-up">
+                                    <p class="testimonial-text">"Habeeb delivered exceptional work on our e-commerce platform. His technical skills and design expertise helped us create a user-friendly interface that increased our conversion rates significantly."</p>
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h6>Michael Chen</h6>
+                                            <small>Founder, ShopEasy</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card" data-aos="fade-up">
+                                    <p class="testimonial-text">"The mobile app design Habeeb created for us is outstanding. He understood our vision perfectly and translated it into a sleek, intuitive interface that our users love."</p>
+                                    <div class="testimonial-author">
+                                        <div class="author-img">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h6>Emily Rodriguez</h6>
+                                            <small>Product Manager, AppFlow</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="contact-content">
+                        <h2>Let's discuss on something <span class="highlight">cool</span> together</h2>
+                        <p>I'm interested both part-time or full-time opportunities. However, if you have other requests or questions, don't hesitate to contact me.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary-custom w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p>&copy; 2025 Habeeb Jinad. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links text-md-end">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+
+        // Navbar scroll effect and active link highlighting
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            // Navbar background on scroll
+            if (window.scrollY > 50) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.backdropFilter = 'blur(10px)';
+            } else {
+                navbar.style.background = 'var(--bg-light)';
+                navbar.style.backdropFilter = 'none';
+            }
+            
+            // Active link highlighting
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Skills animation
+        function animateSkills() {
+            const skillBars = document.querySelectorAll('.skill-progress');
+            skillBars.forEach(bar => {
+                const width = bar.getAttribute('data-width');
+                bar.style.width = width + '%';
+            });
+        }
+        
+                // Portfolio tab switching
+        document.getElementById('btn-product').onclick = function() {
+            document.getElementById('tab-product').style.display = 'flex';
+            document.getElementById('tab-web').style.display = 'none';
+            document.getElementById('tab-graphic').style.display = 'none';
+        };
+        document.getElementById('btn-web').onclick = function() {
+            document.getElementById('tab-product').style.display = 'none';
+            document.getElementById('tab-web').style.display = 'flex';
+            document.getElementById('tab-graphic').style.display = 'none';
+        };
+        document.getElementById('btn-graphic').onclick = function() {
+            document.getElementById('tab-product').style.display = 'none';
+            document.getElementById('tab-web').style.display = 'none';
+            document.getElementById('tab-graphic').style.display = 'flex';
+        };
+        // Trigger skills animation when section is in view
+        const skillsSection = document.getElementById('skills');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateSkills();
+                }
+            });
+        });
+        observer.observe(skillsSection);
+
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        const icon = themeToggle.querySelector('i');
+
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            body.setAttribute('data-theme', savedTheme);
+            if (savedTheme === 'dark') {
+                icon.classList.replace('fa-moon', 'fa-sun');
+            }
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            
+            if (currentTheme === 'dark') {
+                body.removeAttribute('data-theme');
+                icon.classList.replace('fa-sun', 'fa-moon');
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                icon.classList.replace('fa-moon', 'fa-sun');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // Form validation and submission
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simple form validation
+            const inputs = this.querySelectorAll('input, textarea');
+            let isValid = true;
+            
+            inputs.forEach(input => {
+                if (!input.value.trim()) {
+                    isValid = false;
+                    input.style.borderColor = '#dc3545';
+                } else {
+                    input.style.borderColor = 'rgba(255,255,255,0.2)';
+                }
+            });
+            
+            if (isValid) {
+                // Simulate form submission
+                const submitBtn = this.querySelector('button[type="submit"]');
+                const originalText = submitBtn.textContent;
+                submitBtn.textContent = 'Sending...';
+                submitBtn.disabled = true;
+                
+                setTimeout(() => {
+                    alert('Message sent successfully!');
+                    this.reset();
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                }, 2000);
+            }
+        });
+
+        // Mobile nav toggle
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        
+        navbarToggler.addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+
+        // Close mobile nav when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth < 992) {
+                    const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                        hide: true
+                    });
+                }
+            });
+        });
+
+        // Testimonial carousel auto-play
+        const testimonialCarousel = new bootstrap.Carousel(document.getElementById('testimonialCarousel'), {
+            interval: 5000,
+            wrap: true
+        });
+    </script>
+</body>
+</html>
