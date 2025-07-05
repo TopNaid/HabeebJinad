@@ -673,9 +673,24 @@ html {
 
 @media (max-width: 576px) {
     .hero {
-        padding: 0.5rem 0;
+        padding-top: 80px;
     }
-    
+    .hero .row {
+        margin-bottom: 0 !important;
+    }
+    .hero-illustration {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .hero .col-lg-6,
+    .hero .col-md-12 {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .hero .intro-text {
+        margin-top: 0 !important;
+    }
+   
     .hero-buttons {
         flex-direction: column;
         align-items: center;
@@ -718,7 +733,7 @@ html {
     .portfolio-img3,
     .portfolio-img4,
     .portfolio-img {
-        height: 150px;
+        height: 200px;
     }
     
     .testimonial-card {
