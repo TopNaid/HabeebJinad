@@ -89,8 +89,8 @@ html {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--light-blue) 0%, var(--soft-blue) 100%);
-    padding: 2rem 0;
-    min-height: 100vh;
+    padding: 0.7rem 0;
+    min-height: 110vh;
     display: flex;
     align-items: center;
 }
@@ -117,7 +117,7 @@ html {
 .hero .intro-text {
     color: var(--text-dark);
     font-size: clamp(1.1rem, 2.5vw, 1.3rem);
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.3rem;
 }
 
 .hero-buttons {
@@ -130,14 +130,14 @@ html {
     background: var(--primary-color);
     border: none;
     padding: 1rem 2rem;
-    border-radius: 8px;
+    border-radius: 15px;
     font-weight: 600;
     color: white;
     transition: all 0.3s ease;
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    min-width: 150px;
+    min-width: 200px;
 }
 
 .btn-primary-custom:hover {
@@ -150,13 +150,13 @@ html {
     border: 2px solid var(--text-light);
     color: var(--text-light);
     padding: 1rem 2rem;
-    border-radius: 8px;
+    border-radius: 15px;
     font-weight: 500;
     transition: all 0.3s ease;
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    min-width: 150px;
+    min-width: 200px;
 }
 
 .btn-outline-custom:hover {
@@ -356,7 +356,9 @@ html {
 .portfolio-img1,
 .portfolio-img2,
 .portfolio-img3,
-.portfolio-img4 {
+.portfolio-img4,
+.portfolio-img6,
+.portfolio-img7 {
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -382,6 +384,13 @@ html {
 .portfolio-img4 {
     background-image: url('Images/Duolin2.jpeg');
 }
+.portfolio-img6 {
+    background-image: url('Images/Taimako.JPG');
+}
+.portfolio-img7 {
+    background-image: url('Images/auction.JPG');
+}
+
 
 .portfolio-img {
     height: 200px;
@@ -605,6 +614,13 @@ html {
     .carousel-control-next {
         right: -40px;
     }
+      .hero {
+        padding-top: 0;
+        min-height:50vh !important;
+    }
+    .hero .row {
+        margin-bottom: 0 !important;
+    }
 }
 
 @media (max-width: 992px) {
@@ -620,7 +636,7 @@ html {
     }
     
     .hero {
-        padding: 1rem 0;
+        padding: 3rem 0;
         text-align: center;
     }
     
@@ -629,7 +645,7 @@ html {
     }
     
     .section {
-        padding: 3rem 0;
+        padding: 1rem 0;
     }
     
     .carousel-control-prev,
@@ -639,6 +655,7 @@ html {
 }
 
 @media (max-width: 768px) {
+    
     .portfolio-tab-btn {
         padding: 8px 16px;
         font-size: 0.8rem;
