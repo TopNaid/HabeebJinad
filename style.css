@@ -359,6 +359,7 @@ html {
 .portfolio-img4,
 .portfolio-img6,
 .portfolio-img7,
+.portfolio-img8,
 .portfolio-imga,
 .portfolio-imgb,
 .portfolio-imgc {
@@ -392,6 +393,9 @@ html {
 }
 .portfolio-img7 {
     background-image: url('Images/auction.JPG');
+}
+.portfolio-img8 {
+    background-image: url('Images/prepTohire.JPG');
 }
 .portfolio-imga {
     background-image: url('Images/Timeless\ Fabrics\ for\ Every\ Occasion.jpg');
