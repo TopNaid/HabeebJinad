@@ -450,15 +450,15 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12" data-aos="fade-left">
-                    <form class="contact-form" id="contactForm">
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xlgdpapy" method="POST">
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Your name" required>
+                            <input type="text" class="form-control" name="name" placeholder="Your name" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Your email" required>
+                            <input type="email" class="form-control" name="email" placeholder="Your email" required>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" rows="4" placeholder="Your message" required></textarea>
+                            <textarea class="form-control" rows="4" name="message" placeholder="Your message" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary-custom w-100">Send Message</button>
                     </form>
